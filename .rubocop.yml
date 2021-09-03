@@ -1,0 +1,30 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0.0
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 180
+
+Metrics/MethodLength:
+  Max: 30
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Layout/EndOfLine:
+  Enabled: false
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
