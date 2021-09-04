@@ -72,7 +72,6 @@ class Generation
         list[number + @alt].paint
       end
       @alt += @row
-      print "\n"
     end
   end
 
