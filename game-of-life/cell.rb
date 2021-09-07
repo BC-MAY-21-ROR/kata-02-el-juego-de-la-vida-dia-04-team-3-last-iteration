@@ -1,11 +1,11 @@
 class Cell
-  attr_accessor :x, :y, :alive, :dead, :alives, :die, :revive, :paint
+  attr_accessor :x, :y, :alive, :dead, :neighbors, :die, :revive, :paint
 
-  def initialize(x, y)
+  def initialize(x = 0, y = 0)
     @x = x
     @y = y
     @alive = false
-    @alives = 0
+    @neighbors = 0
   end
 
   def alive?() = alive
